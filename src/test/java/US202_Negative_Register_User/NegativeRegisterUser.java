@@ -1,4 +1,4 @@
-package US201_Register_User;
+package US202_Negative_Register_User;
 
 public class NegativeRegisterUser {
 }
