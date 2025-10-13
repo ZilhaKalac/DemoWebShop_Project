@@ -1,4 +1,4 @@
-package US201;
+package US201_Register_User;
 
 public class RegisterUser {
     public static void main(String[] args) {

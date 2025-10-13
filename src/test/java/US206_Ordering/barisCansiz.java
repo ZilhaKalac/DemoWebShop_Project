@@ -1,4 +1,4 @@
-package US206;
+package US206_Ordering;
 
 public class barisCansiz {
     public static void main(String[] args) {
