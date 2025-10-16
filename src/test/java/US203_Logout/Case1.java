@@ -45,6 +45,7 @@ public class Case1 {
         WebElement loginCheck = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='ico-login']")));
         Assert.assertTrue("Login link should not be visible.", loginCheck.isDisplayed());
 
+
         // 4.step
         WebElement registerLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='ico-register']")));
         Assert.assertTrue("Register link should not be visible.", registerLink.isDisplayed());
