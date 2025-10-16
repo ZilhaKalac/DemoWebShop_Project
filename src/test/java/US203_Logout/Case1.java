@@ -43,7 +43,7 @@ public class Case1 {
 
         // 3.step
         WebElement loginCheck = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='ico-login']")));
-        Assert.assertTrue("DWST3_T4 link should not be visible.", loginCheck.isDisplayed());
+        Assert.assertTrue("Login link should not be visible.", loginCheck.isDisplayed());
 
         // 4.step
         WebElement registerLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@class='ico-register']")));
