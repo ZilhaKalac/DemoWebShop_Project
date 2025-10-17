@@ -16,20 +16,6 @@ public class BaseDriver {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        /** Bu bölüm ilk kullandigimiz sitede cikan cookies icindi, ortak her siteye uymadigi
-          icin yoruma aldik */
-        try {
-            WebElement element =
-                    driver.findElement(By.xpath("//div[@class='fc-footer-buttons']/button[1]"));
-
-            element.click();
-            throw new NoSuchElementException("Element sayfada yok");
-
-        } catch (NoSuchElementException e) {
-            System.out.println(e.getMessage());
-        } catch (Exception e) {
-            System.out.println("Bilinmiyen bir hata olustu");
-        }
 
             return driver;
     }
