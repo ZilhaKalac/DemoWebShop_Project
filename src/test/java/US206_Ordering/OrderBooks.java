@@ -123,7 +123,8 @@ public class OrderBooks {
                .perform();
 
        // Step 12
-       /* WebElement firstName= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_FirstName\"]")));
+       WebElement firstName= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_FirstName\"]")));
+      firstName.clear();
        actions
                .click(firstName)
                .sendKeys("baris")
@@ -131,7 +132,7 @@ public class OrderBooks {
                .perform();
        // Step 13
        WebElement lastName= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_LastName\"]")));
-
+       lastName.clear();
        actions
                .click(lastName)
                .sendKeys("cansiz")
@@ -140,7 +141,7 @@ public class OrderBooks {
 
      // Step 14
        WebElement email=  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_Email\"]")));
-
+       email.clear();
        actions
                .click(email)
                .sendKeys(user.getEmail())
@@ -148,7 +149,7 @@ public class OrderBooks {
                .perform();
 
 
-        */
+
 
         // Step 15
        WebElement countrySelect= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_CountryId\"]")));
