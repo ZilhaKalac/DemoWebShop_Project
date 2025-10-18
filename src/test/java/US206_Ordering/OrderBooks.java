@@ -148,10 +148,7 @@ public class OrderBooks {
                .build()
                .perform();
 
-
-
-
-        // Step 15
+       // Step 15
        WebElement countrySelect= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"BillingNewAddress_CountryId\"]")));
        Select select2= new Select(countrySelect);
        select2.selectByVisibleText("Select country");
@@ -241,8 +238,6 @@ public class OrderBooks {
 
       actions.click(continuebutton3).build().perform();
 
-
-
       // Step 26
       WebElement cardHolderName= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"CardholderName\"]")));
 
@@ -276,7 +271,6 @@ public class OrderBooks {
       select5.selectByVisibleText("2032");
 
       actions.click(lastYear).build().perform();
-
 
       // Step 30
       WebElement cardCode= wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"CardCode\"]")));
