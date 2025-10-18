@@ -14,7 +14,7 @@ import utility.JSONHelper;
 
 import java.time.Duration;
 
-public class Logged_in_User {
+public class DWST3_T8 {
     public static void main(String[] args) {
 
         WebDriver driver = BaseDriver.driver("https://demowebshop.tricentis.com/");

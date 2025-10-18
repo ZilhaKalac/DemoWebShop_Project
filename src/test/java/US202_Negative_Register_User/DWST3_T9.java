@@ -5,14 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import pojo.User;
 import utility.BaseDriver;
 import utility.JSONHelper;
 
-import java.time.Duration;
-
-public class NegativeRegisterUser {
+public class DWST3_T9 {
     public static void main(String[] args) {
         // Step 1
         WebDriver driver = BaseDriver.driver("https://demowebshop.tricentis.com/");
