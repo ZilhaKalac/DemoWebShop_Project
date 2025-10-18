@@ -11,7 +11,7 @@ import utility.BaseDriver;
 
 import java.time.Duration;
 
-public class Non_Logged_In_User {
+public class DWST3_T7 {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = BaseDriver.driver("https://demowebshop.tricentis.com/");

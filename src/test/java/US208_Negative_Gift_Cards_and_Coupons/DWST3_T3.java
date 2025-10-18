@@ -13,7 +13,7 @@ import utility.JSONHelper;
 
 import java.time.Duration;
 
-public class DWST3_T8 {
+public class DWST3_T3 {
 
     public static void main(String[] args) {
         WebDriver driver= BaseDriver.driver("https://demowebshop.tricentis.com/");

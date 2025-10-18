@@ -12,7 +12,7 @@ import utility.JSONHelper;
 
 import java.time.Duration;
 
-public class RegisterUser {
+public class DWST3_T6 {
     public static void main(String[] args) {
 
         //UYARI:Kodları çalıştırmadan önce user201.json dosyasındaki, kayıt için gerekli olan ve

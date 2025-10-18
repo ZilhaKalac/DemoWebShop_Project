@@ -10,7 +10,7 @@ import utility.BaseDriver;
 import utility.JSONHelper;
 import java.time.Duration;
 
-public class Case1 {
+public class DWST3_T5 {
     public static void main(String[] args) {
 
         // 1.step

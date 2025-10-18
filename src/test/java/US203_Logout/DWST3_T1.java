@@ -13,7 +13,7 @@ import utility.BaseDriver;
 
 import java.time.Duration;
 
-public class Case1 {
+public class DWST3_T1 {
     public static void main(String[] args) {
         // 1.step
         WebDriver driver = BaseDriver.driver("https://demowebshop.tricentis.com/");

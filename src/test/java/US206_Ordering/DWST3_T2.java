@@ -17,7 +17,7 @@ import utility.JSONHelper;
 
 import java.time.Duration;
 
-public class OrderBooks {
+public class DWST3_T2 {
     public static void main(String[] args) {
         WebDriver driver= BaseDriver.driver("https://demowebshop.tricentis.com/");
         driver.manage().window().maximize();
@@ -73,7 +73,6 @@ public class OrderBooks {
 
        actions
                .click(addToCart)
-               .build()
                .perform();
 
        // Step 7
@@ -81,7 +80,6 @@ public class OrderBooks {
 
        actions
                .click(moveToShoppingCart)
-               .build()
                .perform();
 
 
