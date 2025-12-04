@@ -39,6 +39,7 @@ public class Case1 {
         // 3.step
         WebElement myAccountLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='header-links']/ul/li/a[@class='account']")));
         actions.moveToElement(myAccountLink).click().perform();
+        BaseDriver.threadWait(3);
 
         WebElement accountInfo = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(.,'My account - Customer info')]")));
         Assert.assertTrue("Account info should not be visible", accountInfo.isDisplayed());
@@ -46,6 +47,7 @@ public class Case1 {
         // 4.step
         WebElement ordersLink = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//ul[@class='list']/li[3]/a")));
         actions.moveToElement(ordersLink).click().perform();
+        BaseDriver.threadWait(3);
 
         WebElement ordersCheck = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(.,'My account - Orders')]")));
         Assert.assertTrue("Orders should not be visible",ordersCheck.isDisplayed());
@@ -61,6 +63,7 @@ public class Case1 {
 
         WebElement orderDetails = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("input.button-2.order-details-button")));
         actions.moveToElement(orderDetails).click().perform();
+        BaseDriver.threadWait(3);
 
         WebElement detailsCheck = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(.,'Order information')]")));
         Assert.assertTrue("Details should not be visible",detailsCheck.isDisplayed());
@@ -71,6 +74,7 @@ public class Case1 {
         // 7.step
         WebElement invoiceDownload = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='button-2 pdf-order-button']")));
         actions.moveToElement(invoiceDownload).click().perform();
+        BaseDriver.threadWait(3);
 
         driver.quit();
 
